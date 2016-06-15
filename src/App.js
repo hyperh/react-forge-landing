@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+export default class App extends Component {  // eslint-disable-line react/prefer-stateless-function
   render() {
-    return (
-      <h1>123123Hello, world.</h1>
-    );
+    return <h1>122, world.</h1>;
   }
 }
