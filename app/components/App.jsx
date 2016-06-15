@@ -1,15 +1,22 @@
 import React from 'react';
 
+import Header from './Header';
+import Process from './Process';
+import Benefits from './Benefits';
+import CTA from './CTA';
+import PreviousWork from './PreviousWork';
+import Footer from './Footer';
+
 export default class App extends React.Component {
   render() {
     return (
       <div id="content">
-        <h1>&nbsp;</h1>
-        <h2>Welcome!</h2>
-        <ul>
-          <li><a href="http://brunch.io">Brunch homepage</a></li>
-          <li><a href="https://facebook.github.io/react/">React.js homepage</a></li>
-        </ul>
+        <Header />
+        <Process />
+        <Benefits />
+        <CTA />
+        <PreviousWork />
+        <Footer />
       </div>
     );
   }
