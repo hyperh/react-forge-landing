@@ -1,10 +1,4 @@
-.DS_Store
-settings*.json
-npm-shrinkwrap.json
-ssl/
-ssl.pem
-fullchain.pem
-privkey.pem
 node_modules
-*.log
-.meteor-electron
+npm-debug.log
+.DS_Store
+dist

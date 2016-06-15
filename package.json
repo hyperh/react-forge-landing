@@ -1,22 +1,32 @@
 {
-  "name": "react-forge-landing",
-  "version": "0.0.1",
-  "description": "A landing page for ReactForge.",
-  "main": "index.js",
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyperh/react-forge-landing.git"
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperh/react-forge-landing/issues"
+    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
   },
-  "homepage": "https://github.com/hyperh/react-forge-landing#readme",
+  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.0.4",
@@ -30,7 +40,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "jquery": "^3.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   }
