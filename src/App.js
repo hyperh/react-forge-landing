@@ -1,8 +1,9 @@
-import React from 'react';
-import './style.css';
+import React, { Component } from 'react';
 
-export default () => (
-  <div className="test">
-    <h1>tttHello, world. This 1212.</h1>
-  </div>
-);
+export default class App extends Component {
+  render() {
+    return (
+      <h1>111111Hello, world.</h1>
+    );
+  }
+}

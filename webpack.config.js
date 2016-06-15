@@ -1,29 +1,26 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
-  entry: './src',
+  devtool: 'eval',
+  entry: [
+    'webpack-dev-server/client?http://localhost:3000',
+    'webpack/hot/only-dev-server',
+    './src/index',
+  ],
   output: {
-    path: 'builds',
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: 'builds/',
+    publicPath: '/static/',
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ],
   module: {
-    preLoaders: [
-      {
-        test: /\.js/,
-        loader: 'eslint',
-      },
-    ],
-    loaders: [
-      {
-        test: /\.js$/,
-        loaders: ['babel'],
-        include: path.join(__dirname, 'src'),
-      },
-      {
-        test: /\.css/,
-        loaders: ['style', 'css'],
-      },
-    ],
+    loaders: [{
+      test: /\.js$/,
+      loaders: ['react-hot', 'babel'],
+      include: path.join(__dirname, 'src'),
+    }],
   },
 };
