@@ -4,18 +4,19 @@ import { AppContainer } from 'react-hot-loader';
 import App from './App';
 
 render(
-  <AppContainer
-    component={App}
-  />,
+  <AppContainer>
+    <App />
+  </AppContainer>,
   document.getElementById('root')
 );
 
 if (module.hot) {
   module.hot.accept('./App', () => {
+    const NextApp = require('./App').default; // eslint-disable-line global-require
     render(
-      <AppContainer
-        component={require('./App').default} // eslint-disable-line global-require
-      />,
+      <AppContainer>
+        <NextApp />
+      </AppContainer>,
       document.getElementById('root')
     );
   });
