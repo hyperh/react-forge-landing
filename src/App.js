@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default () => (
-  <h1>Hello, world. This is App Component.</h1>
+  <h1>123 Hello, world. This 1212.</h1>
 );

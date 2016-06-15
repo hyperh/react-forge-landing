@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "builds/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -20375,7 +20375,7 @@
 	  return _react2.default.createElement(
 	    'h1',
 	    null,
-	    'Hello, world. This is App Component.'
+	    'Hello, world. This .'
 	  );
 	};
 
