@@ -1,5 +1,8 @@
 import React from 'react';
+import './style.css';
 
 export default () => (
-  <h1>123 Hello, world. This 1212.</h1>
+  <div className="test">
+    <h1>tttHello, world. This 1212.</h1>
+  </div>
 );

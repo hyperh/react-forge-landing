@@ -14,10 +14,16 @@ module.exports = {
         loader: 'eslint',
       },
     ],
-    loaders: [{
-      test: /\.js$/,
-      loaders: ['babel'],
-      include: path.join(__dirname, 'src'),
-    }],
+    loaders: [
+      {
+        test: /\.js$/,
+        loaders: ['babel'],
+        include: path.join(__dirname, 'src'),
+      },
+      {
+        test: /\.css/,
+        loaders: ['style', 'css'],
+      },
+    ],
   },
 };
