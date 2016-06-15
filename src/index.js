@@ -1,5 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { AppContainer } from 'react-hot-loader';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(
+  <AppContainer
+    component={App}
+  />,
+  document.getElementById('root')
+);
+
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    render(
+      <AppContainer
+        component={require('./App').default} // eslint-disable-line global-require
+      />,
+      document.getElementById('root')
+    );
+  });
+}
