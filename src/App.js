@@ -5,7 +5,7 @@ export default class App extends Component {  // eslint-disable-line react/prefe
   render() {
     return (
       <div className="test">
-        <h1>11111, world.</h1>
+        <h1>2222, world.</h1>
       </div>
     );
   }
