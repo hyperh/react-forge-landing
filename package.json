@@ -1,0 +1,25 @@
+{
+  "name": "react-forge-landing",
+  "version": "0.0.1",
+  "description": "A landing page for ReactForge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperh/react-forge-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperh/react-forge-landing/issues"
+  },
+  "homepage": "https://github.com/hyperh/react-forge-landing#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
