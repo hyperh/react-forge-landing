@@ -38,20 +38,20 @@
   align-items: center;
 }
 
-.logo,
+.logoText,
 .tagline {
   color: white;
   display: flex;
   justify-content: center;
 }
 
-.logo {
+.logoText {
   font-family: "Klinic Slab";
   font-size: 75px;
   font-weight: bold;
 }
 
-.hammerClamp {
+.logoSymbol {
   background: url('../assets/hammerClamp.png') no-repeat center center;
   background-size: 100%;
   width: 100px;

@@ -7,9 +7,9 @@ export default class Header extends React.Component {
     return (
       <div className={styles.header}>
         <div className={styles.logoContainer}>
-          <div className={styles.logo}>REACT</div>
-          <div className={styles.hammerClamp} />
-          <div className={styles.logo}>FORGE</div>
+          <div className={styles.logoText}>REACT</div>
+          <div className={styles.logoSymbol} />
+          <div className={styles.logoText}>FORGE</div>
         </div>
 
         <div className={styles.tagline}>
