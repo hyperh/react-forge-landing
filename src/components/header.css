@@ -2,11 +2,12 @@
   background: rgba(15, 187, 236, 0.8) url('../assets/rain.jpg') no-repeat fixed center center;
   background-size: cover;
   background-blend-mode: multiply;
-  width: 100%;
+  width: 100vw;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 .logoContainer {
@@ -39,4 +40,24 @@
 .tagline {
   font-family: "Roboto";
   font-weight: 400;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  bottom: 0;  
+}
+
+.triangleRight {
+  border-width: 0 0 10vw 50vw;
+  border-color: transparent transparent white transparent;
+  right: 0;
+}
+
+.triangleLeft {
+  border-width: 10vw 0 0 50vw;
+  border-color: transparent transparent transparent white;
+  left: 0;
 }
