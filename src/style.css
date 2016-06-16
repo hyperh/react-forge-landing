@@ -1,9 +1,6 @@
-#myId {
-  background-color: red;
-}
-
-.test {
-  background-color: green;
-  display: flex;
-  flex-direction: column;
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
