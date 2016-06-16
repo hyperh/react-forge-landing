@@ -1,0 +1,6 @@
+.header {
+  background: url('../assets/rain.jpg') no-repeat fixed center center;
+  background-size: 100%;
+  width: 100%;
+  height: 500px;
+}
