@@ -38,7 +38,7 @@ class BenefitsSection extends Component {
             'Webpack, Hot Module Replacement'
             + 'CSS Modules, etc. WE use the best-in-'
             + 'class technologies to give you the best'
-            + 'development experience'
+            + 'development experience.'
           }
         />
       </div>

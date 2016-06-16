@@ -7,7 +7,7 @@ class Benefit extends Component {
     const { icon, highlight, description } = this.props;
     const Icon = icon;
     return (
-      <div className={styles.benefits}>
+      <div className={styles.benefit}>
         <h1><Icon /></h1>
         <p>{highlight}</p>
         <p className={styles.description}>{description}</p>
