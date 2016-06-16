@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import styles from './style.css';
+// import styles from './style.css';
+import BenefitsContainer from './components/BenefitsContainer';
 
-export default class App extends Component {  // eslint-disable-line react/prefer-stateless-function
+/*  eslint-disable react/prefer-stateless-function */
+export default class App extends Component {
   render() {
     return (
-      <div className={styles.test}>
-        <h1>222, world.</h1>
-        <div id={styles.myId} className={styles.test}>1</div>
-        <div className={styles.test}>2</div>
-        <div className={styles.test}>3</div>
+      <div>
+        <BenefitsContainer />
       </div>
     );
   }
