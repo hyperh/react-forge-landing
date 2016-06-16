@@ -1,0 +1,9 @@
+.benefitsSection {
+  display: flex;
+  justify-content: space-around;
+  /*color: white;*/
+}
+
+.benefits {
+  text-align: center;
+}

@@ -1,23 +1,28 @@
 import React, { Component } from 'react';
-import styles from '../style.css';
-import Benefits from './Benefits';
+import Benefit from './Benefit';
+import styles from './styles.css';
+
+import boltIcon from 'react-icons/lib/io/ios-bolt-outline';
+import bikeIcon from 'react-icons/lib/io/android-bicycle';
+import jsIcon from 'react-icons/lib/io/social-javascript-outline';
 
 /*  eslint-disable react/prefer-stateless-function */
-class BenefitsContainer extends Component {
+class BenefitsSection extends Component {
   render() {
     return (
-      <div className={styles.benefitsContainer}>
-        <Benefits
-          icon="testing"
+      <div className={styles.benefitsSection}>
+        <Benefit
+          icon={boltIcon}
           highlight="LIGHTNING SPEED"
           description={
             'In just 5 business days, '
-            + 'we turn a page of your designer mock up into React.js components for $97. '
+            + 'we turn a page of your designer mock up into '
+            + 'React.js components for $97. '
             + 'A custom boilerplate made just for you.'
           }
         />
-        <Benefits
-          icon="testing"
+        <Benefit
+          icon={bikeIcon}
           highlight="HIT THE GROUND RUNNING"
           description={
             'Stop wasting time fiddling with CSS and '
@@ -26,8 +31,8 @@ class BenefitsContainer extends Component {
             + 'to go.'
           }
         />
-        <Benefits
-          icon="testing"
+        <Benefit
+          icon={jsIcon}
           highlight="STATE OF THE ART"
           description={
             'Webpack, Hot Module Replacement'
@@ -41,4 +46,4 @@ class BenefitsContainer extends Component {
   }
 }
 
-export default BenefitsContainer;
+export default BenefitsSection;
