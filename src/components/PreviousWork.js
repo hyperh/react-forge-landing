@@ -7,10 +7,15 @@ class Benefits extends Component {
     return (
       <div className={styles.benefits}>
         <div className={styles.highlights}>
-          <img src={this.props.img} alt={this.props.alt} />
-          <h5>{this.props.title}</h5>
+          <img
+            src={this.props.img}
+            alt={this.props.title}
+          />
         </div>
-        <p className={styles.description}>{this.props.description}</p>
+        <h4>{this.props.title}</h4>
+        <span className={styles.description}>
+          {this.props.description}
+        </span>
       </div>
     );
   }

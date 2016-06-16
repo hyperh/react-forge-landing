@@ -8,8 +8,17 @@
   transition: all .5s;
 }
 
-.prevWorks {
+.prevWorksContainer {
   text-align: center;
+}
+
+.prevWorks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.prevWorks img {
+  max-height: 150px;
 }
 
 hr.prevWorksHr {
