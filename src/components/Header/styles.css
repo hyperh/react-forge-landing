@@ -1,5 +1,5 @@
 .header {
-  background: rgba(15, 187, 236, 0.8) url('../assets/rain.jpg') no-repeat center center fixed;
+  background: rgba(15, 187, 236, 0.8) url('../../assets/hero.jpg') no-repeat center center fixed;
   background-size: cover;
   background-blend-mode: multiply;
   width: 100%;
@@ -52,7 +52,7 @@
 }
 
 .logoSymbol {
-  background: url('../assets/logoSymbol.png') no-repeat center center;
+  background: url('../../assets/logoSymbol.png') no-repeat center center;
   background-size: 100%;
   width: 100px;
   height: 100px;
