@@ -33,7 +33,15 @@ module.exports = {
       },
       {
         test: /\.css/,
-        loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader',
+        loaders: [
+          'style',
+          'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'postcss-loader',
+        ],
+      },
+      {
+        test: /\.(png|jpg|svg)/,
+        loaders: ['url'],
       },
     ],
   },
