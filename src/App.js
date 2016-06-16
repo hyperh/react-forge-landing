@@ -5,7 +5,7 @@ export default class App extends Component {  // eslint-disable-line react/prefe
   render() {
     return (
       <div className={styles.test}>
-        <h1>33, world.</h1>
+        <h1>222, world.</h1>
         <div id={styles.myId} className={styles.test}>1</div>
         <div className={styles.test}>2</div>
         <div className={styles.test}>3</div>
