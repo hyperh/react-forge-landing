@@ -35,13 +35,15 @@ module.exports = {
         test: /\.css/,
         loaders: [
           'style',
-          'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
-          'postcss-loader',
+          'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'postcss',
         ],
       },
       {
         test: /\.(png|jpg|svg)/,
-        loaders: ['url'],
+        loaders: [
+          'url?limit=10000&hash=sha512&digest=hex&name=[name]_[hash].[ext]',
+        ],
       },
     ],
   },
