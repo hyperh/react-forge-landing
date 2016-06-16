@@ -46,7 +46,7 @@
 }
 
 .logoText {
-  font-family: "Klinic Slab";
+  font-family: 'Klinic Slab';
   font-size: 75px;
   font-weight: bold;
 }
@@ -60,6 +60,6 @@
 }
 
 .tagline {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 400;
 }
