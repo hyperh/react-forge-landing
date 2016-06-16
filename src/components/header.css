@@ -9,12 +9,34 @@
   justify-content: center;
 }
 
-.logo, .tagline {
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo,
+.tagline {
   color: white;
   display: flex;
   justify-content: center;
 }
 
 .logo {
-  font-family: "Courier New";
+  font-family: "Klinic Slab";
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.hammerClamp {
+  background: url('../assets/hammerClamp.png') no-repeat center center;
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 0px 15px 0px 15px;
+}
+
+.tagline {
+  font-family: "Roboto";
+  font-weight: 400;
 }
