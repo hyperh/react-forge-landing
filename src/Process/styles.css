@@ -14,6 +14,13 @@
   height: auto;
   display: block;
   align-self: center;
+}
+
+.stepContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
   padding: 0 10px 0 10px;
 }
 
@@ -24,8 +31,27 @@
   justify-content: center;
 }
 
-.laptop {
-  width: 40%;
+.stepText {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  background: #61DAFB;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+}
+
+.laptop,
+.code {
+  width: 100%;
 }
 
 .fileTypes {
@@ -36,10 +62,6 @@
   width: 50%;
 }
 
-.code {
-  width: 40%;
-}
-
 @media (max-width: 768px)  {
   .process {
     flex-direction: column;
@@ -47,6 +69,10 @@
 
   .process img {
     padding: 10px 0px 10px 0px;
+  }
+
+  .stepContainer {
+    width: 100%;
   }
 
   .centerContainer {
