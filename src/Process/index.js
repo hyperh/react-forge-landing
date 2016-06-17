@@ -13,7 +13,7 @@ export default class Process extends React.Component {
       <div className={styles.container}>
         <div className={styles.process}>
           <img src={laptop} alt="Laptop" className={styles.laptop} />
-          <div className={styles.filesAndArrow}>
+          <div className={styles.centerContainer}>
             <img src={fileTypes} alt="File Types" className={styles.fileTypes} />
             <img src={arrow} alt="File Types" className={styles.arrow} />
           </div>
