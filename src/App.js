@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import styles from './style.css';
-import CtaButton from './components/CtaButton';
+import CtaButton from './components/CtaButton/CtaButton';
 
 export default class App extends Component {  // eslint-disable-line react/prefer-stateless-function
   render() {
