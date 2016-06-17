@@ -1,7 +1,11 @@
 .benefitsSection {
   display: flex;
   justify-content: space-around;
-  /*color: white;*/
+  color: white;
+  background-repeat: repeat-x;
+  text-align: center;
+  padding:70px;
+  background-image: url('../../assets/sayagata.png');
 }
 
 .benefit {
