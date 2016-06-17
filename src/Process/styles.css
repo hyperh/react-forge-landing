@@ -17,12 +17,23 @@
   padding: 0 10px 0 10px;
 }
 
+.filesAndArrow {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+}
+
 .laptop {
   width: 40%;
 }
 
 .fileTypes {
-  width: 20%;
+  width: 100%;
+}
+
+.arrow {
+  width: 50%;
 }
 
 .code {
@@ -38,12 +49,23 @@
     padding: 10px 0px 10px 0px;
   }
 
+  .filesAndArrow {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
   .laptop,
   .code {
     width: 100%;
   }
 
   .fileTypes {
-    width: 50%;
+    width: 60%;
+  }
+
+  .arrow {
+    width: 40%;
+    transform: rotate(90deg);
   }
 }
