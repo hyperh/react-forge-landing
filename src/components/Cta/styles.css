@@ -1,0 +1,13 @@
+.cta {
+    color: white;
+    background-repeat: repeat-x;
+    text-align: center;
+    padding:70px;
+    background-image: url('../../assets/sayagata.png');
+}
+
+.cta p {
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}

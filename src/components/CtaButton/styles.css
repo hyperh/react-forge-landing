@@ -23,6 +23,7 @@
 .ctaButton {
     color: #FFFFFF;
     background: #FF735D;
+    margin: auto;
 }
 
 .btn:hover {
