@@ -1,0 +1,31 @@
+.PreviousWorksSection {
+    text-align: center;
+    padding: 50px;
+}
+
+.prevWorks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prevWorks img {
+    max-height: 150px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+hr.prevWorksHr {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #333;
+    color: #333;
+}
+
+hr.prevWorksHr:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    content: url("../../assets/ios7-albums-min.png");
+}
