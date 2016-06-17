@@ -14,6 +14,7 @@
   height: auto;
   display: block;
   align-self: center;
+  padding: 10px 10px 10px 10px;
 }
 
 .stepContainer {
@@ -47,6 +48,7 @@
   line-height: 2em;
   text-align: center;
   color: white;
+  margin: 10px;
 }
 
 .laptop,
@@ -65,10 +67,6 @@
 @media (max-width: 768px)  {
   .process {
     flex-direction: column;
-  }
-
-  .process img {
-    padding: 10px 0px 10px 0px;
   }
 
   .stepContainer {
