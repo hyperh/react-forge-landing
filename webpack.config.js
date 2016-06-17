@@ -45,6 +45,10 @@ module.exports = {
           'url?limit=10000&hash=sha512&digest=hex&name=[name]_[hash].[ext]',
         ],
       },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'file?name=public/fonts/[name].[ext]',
+      },
     ],
   },
   postcss: () => [autoprefixer],
