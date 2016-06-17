@@ -3,7 +3,7 @@
 }
 
 .test {
-  background-color: green;
+  background-color: white;
   display: flex;
   transition: all .5s;
 }
