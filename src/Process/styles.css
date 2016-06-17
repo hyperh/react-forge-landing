@@ -4,8 +4,23 @@
   width: 100%;
 }
 
+.process {
+  display: flex;
+}
+
 .img-responsive {
   max-width: 100%;
   height: auto;
   display: block;
+  align-self: center;
+}
+
+/*@media (max-width: 480px)  {
+  
+}*/
+
+@media (max-width: 480px)  {
+  .process {
+    flex-direction: column;
+  }
 }
