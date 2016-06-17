@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './styles.css';
+import CtaButton from '../CtaButton';
+
+import laptop from '../../assets/laptop.png';
+import fileTypes from '../../assets/file-types.png';
+import arrow from '../../assets/arrow-right.png';
+import code from '../../assets/code.png';
 
 /* eslint-disable react/prefer-stateless-function */
 export default class Process extends React.Component {
   render() {
-    const laptop = require('../../assets/laptop.png'); // eslint-disable-line global-require
-    const fileTypes = require('../../assets/file-types.png'); // eslint-disable-line global-require
-    const arrow = require('../../assets/arrow-right.png'); // eslint-disable-line global-require
-    const code = require('../../assets/code.png'); // eslint-disable-line global-require
-
     return (
       <div className={styles.container}>
         <div className={styles.process}>
@@ -33,6 +34,7 @@ export default class Process extends React.Component {
             <img src={code} alt="Code" className={styles.code} />
           </div>
         </div>
+        <CtaButton />
       </div>
     );
   }

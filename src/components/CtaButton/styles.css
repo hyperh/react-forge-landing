@@ -24,6 +24,7 @@
     color: #FFFFFF;
     background: #FF735D;
     margin: auto;
+    opacity: 0.99;
 }
 
 .btn:hover {

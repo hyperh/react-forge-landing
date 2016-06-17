@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CtaButton from '../CtaButton/CtaButton';
+import CtaButton from '../CtaButton';
 import styles from './styles.css';
 
 /*  eslint-disable react/prefer-stateless-function */
