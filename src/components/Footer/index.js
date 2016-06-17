@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
     return (
       <div className={styles.container}>
         <div>Artisinally crafted by Adrian and friends.</div>
-        <div>Copyright ReactForge 2016.</div>
+        <div>Copyright &copy; ReactForge 2016.</div>
       </div>
     );
   }

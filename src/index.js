@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import App from './App';
+import App from './components/App';
 
 render(
   <AppContainer>
@@ -11,8 +11,8 @@ render(
 );
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
-    const NextApp = require('./App').default; // eslint-disable-line global-require
+  module.hot.accept('./components/App', () => {
+    const NextApp = require('./components/App').default; // eslint-disable-line global-require
     render(
       <AppContainer>
         <NextApp />

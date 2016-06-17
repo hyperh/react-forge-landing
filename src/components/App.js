@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import styles from './style.css';
+import styles from '../styles.css';
 
+import Header from './Header/index';
+import Process from './Process/index';
 import Footer from './Footer/index';
 
 export default class App extends Component {  // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div className={styles.test}>
+      <div className={styles.app}>
+        <Header />
+        <Process />
         <Footer />
       </div>
     );
