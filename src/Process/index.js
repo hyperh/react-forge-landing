@@ -11,9 +11,9 @@ export default class Process extends React.Component {
     return (
       <div className={styles.container}>
         <div className={`${styles.process}`}>
-          <img src={laptop} alt="Laptop" />
-          <img src={fileTypes} alt="File Types" />
-          <img src={code} alt="Code" />
+          <img src={laptop} alt="Laptop" className={styles.laptop} />
+          <img src={fileTypes} alt="File Types" className={styles.fileTypes} />
+          <img src={code} alt="Code" className={styles.code} />
         </div>
       </div>
     );

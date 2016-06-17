@@ -15,6 +15,18 @@
   align-self: center;
 }
 
+.laptop {
+  width: 40%;
+}
+
+.fileTypes {
+  width: 20%;
+}
+
+.code {
+  width: 40%;
+}
+
 /*@media (max-width: 480px)  {
   
 }*/
