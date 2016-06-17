@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import styles from '../style.css';
+import styles from './styles.css';
 import PreviousWork from './PreviousWork';
+
+import olisImg from '../../assets/olis-min.png';
+import olisLandingImg from '../../assets/olis-landing-min.png';
+
 
 /*  eslint-disable react/prefer-stateless-function */
 class PreviousWorksContainer extends Component {
-  render() {
-    const olisImg = require('../assets/olis.png'); // eslint-disable-line
-    const olisLandingImg = require('../assets/olis-landing.png'); // eslint-disable-line
 
+  render() {
     return (
       <div className={styles.prevWorksContainer}>
+
         <h1>Our Previous Works</h1>
         <hr className={styles.prevWorksHr} />
+
         <div className={styles.prevWorks}>
           <PreviousWork
             img={olisLandingImg}
