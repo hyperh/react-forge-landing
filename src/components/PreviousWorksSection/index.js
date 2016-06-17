@@ -7,11 +7,11 @@ import olisLandingImg from '../../assets/olis-landing-min.png';
 
 
 /*  eslint-disable react/prefer-stateless-function */
-class PreviousWorksContainer extends Component {
+class PreviousWorksSection extends Component {
 
   render() {
     return (
-      <div className={styles.prevWorksContainer}>
+      <div className={styles.PreviousWorksSection}>
 
         <h1>Our Previous Works</h1>
         <hr className={styles.prevWorksHr} />
@@ -33,4 +33,4 @@ class PreviousWorksContainer extends Component {
   }
 }
 
-export default PreviousWorksContainer;
+export default PreviousWorksSection;
