@@ -7,7 +7,9 @@ export default class Process extends React.Component {
     const imgSrc = require('../assets/process-horiz.png'); // eslint-disable-line
     return (
       <div className={styles.container}>
-        <img src={imgSrc} alt="The ReactForge Process." />
+        <div>
+          <img src={imgSrc} alt="The ReactForge Process." className={styles['img-responsive']} />
+        </div>
       </div>
     );
   }
