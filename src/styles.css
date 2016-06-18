@@ -1,23 +1,23 @@
 @font-face {
-  font-family: Roboto;
+  font-family: 'Roboto';
   src: url('./assets/fonts/Roboto-Light.ttf');
   font-weight: 300;
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: 'Roboto';
   src: url('./assets/fonts/Roboto-Regular.ttf');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: 'Roboto';
   src: url('./assets/fonts/Roboto-Bold.ttf');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: KlinicSlab;
+  font-family: 'Klinic Slab';
   src: url('./assets/fonts/KlinicSlabBold.otf');
   font-weight: 700;
 }
