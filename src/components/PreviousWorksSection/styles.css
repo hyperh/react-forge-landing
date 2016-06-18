@@ -13,6 +13,17 @@
     box-shadow: 3px 3px 5px #888888;
 }
 
+.title {
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: small;
+}
+
 hr.prevWorksHr {
     padding: 0;
     border: none;
@@ -28,4 +39,16 @@ hr.prevWorksHr:after {
     padding: 0 0.25em;
     background: white;
     content: url("../../assets/ios7-albums-min.png");
+}
+
+
+@media (max-width: 768px)  {
+    .prevWorks {
+        flex-direction: column;
+        height:100%;
+    }
+
+    .prevWork {
+        margin-top:15px;
+    }
 }

@@ -1,5 +1,5 @@
 .header {
-  background: rgba(15, 187, 236, 0.8) url('../../assets/hero.jpg') no-repeat center center fixed;
+  background: rgba(15, 187, 236, 0.99) url('../../assets/hero.jpg') no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
   width: 100%;
@@ -36,10 +36,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top:50px;
 }
 
-.logoText,
-.tagline {
+.logoText {
   color: white;
   display: flex;
   justify-content: center;
@@ -52,10 +52,14 @@
 }
 
 .tagline {
-  margin: 1em;
+  display: flex;
+  align-content: center;
+  color: white;
+  margin: auto;
+  margin-top: 0;
+  max-width: 75%;
   text-align: center;
   font-size: 1.5em;
-  font-family: 'Roboto';
   font-weight: 300;
 }
 
@@ -68,12 +72,17 @@
 }
 
 /* Small screens */
-@media (max-width: 480px) {
+@media (max-width: 748px) {
   .logoContainer {
     flex-direction: column;
   }
 
-  .logoSymbol {
-    margin: 15px 0px 15px 0px;
+  .logoText {
+    font-size: 4em;
+    font-weight: bold;
+  }
+
+  .logoContainer {
+    margin-top: auto;
   }
 }

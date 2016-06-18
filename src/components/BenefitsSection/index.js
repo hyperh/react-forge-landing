@@ -13,7 +13,7 @@ class BenefitsSection extends Component {
       <div className={styles.benefitsSection}>
         <Benefit
           icon={boltIcon}
-          highlight="LIGHTNING SPEED"
+          title="LIGHTNING SPEED"
           description={
             'In just 5 business days, '
             + 'we turn a page of your designer mock up into '
@@ -23,7 +23,7 @@ class BenefitsSection extends Component {
         />
         <Benefit
           icon={bikeIcon}
-          highlight="HIT THE GROUND RUNNING"
+          title="HIT THE GROUND RUNNING"
           description={
             'Stop wasting time fiddling with CSS and '
             + 'let us do the grunt work. All you need to'
@@ -33,9 +33,9 @@ class BenefitsSection extends Component {
         />
         <Benefit
           icon={jsIcon}
-          highlight="STATE OF THE ART"
+          title="STATE OF THE ART"
           description={
-            'Webpack, Hot Module Replacement'
+            'Webpack, Hot Module Replacement, '
             + 'CSS Modules, etc. WE use the best-in-'
             + 'class technologies to give you the best'
             + 'development experience.'

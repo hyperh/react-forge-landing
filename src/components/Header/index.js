@@ -11,7 +11,6 @@ export default class Header extends React.Component {
           <div className={styles.logoSymbol} />
           <div className={styles.logoText}>FORGE</div>
         </div>
-
         <div className={styles.tagline}>
           We turn your designer mockups into React components.
         </div>

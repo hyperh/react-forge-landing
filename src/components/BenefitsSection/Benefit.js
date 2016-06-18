@@ -4,12 +4,12 @@ import styles from './styles.css';
 /*  eslint-disable react/prefer-stateless-function */
 class Benefit extends Component {
   render() {
-    const { icon, highlight, description } = this.props;
+    const { icon, title, description } = this.props;
     const Icon = icon;
     return (
       <div className={styles.benefit}>
-        <h1><Icon /></h1>
-        <p>{highlight}</p>
+        <p className={styles.icon}><Icon /></p>
+        <p className={styles.title}>{title}</p>
         <p className={styles.description}>{description}</p>
       </div>
     );
@@ -19,7 +19,7 @@ class Benefit extends Component {
 Benefit.propTypes = {
   icon: React.PropTypes.element.isRequired,
   description: React.PropTypes.string.isRequired,
-  highlight: React.PropTypes.string.isRequired,
+  title: React.PropTypes.string.isRequired,
 };
 
 export default Benefit;

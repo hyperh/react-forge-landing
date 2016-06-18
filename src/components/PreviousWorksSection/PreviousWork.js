@@ -5,15 +5,15 @@ import styles from './styles.css';
 class Benefits extends Component {
   render() {
     return (
-      <div className={styles.benefits}>
+      <div className={styles.prevWork}>
         <img
           src={this.props.img}
           alt={this.props.title}
         />
-        <h4>{this.props.title}</h4>
-        <span className={styles.description}>
+        <p className={styles.title}>{this.props.title}</p>
+        <p className={styles.description}>
           {this.props.description}
-        </span>
+        </p>
       </div>
     );
   }

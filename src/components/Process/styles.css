@@ -78,9 +78,13 @@
     justify-content: center;
   }
 
+  .centerContainer img {
+    max-width: 242px;
+  }
+
   .laptop,
   .code {
-    width: 100%;
+    max-width: 242px;
   }
 
   .fileTypes {
@@ -88,7 +92,7 @@
   }
 
   .arrow {
-    width: 40%;
+    width: 20%;
     transform: rotate(90deg);
   }
 }
