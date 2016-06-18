@@ -8,7 +8,7 @@ class Benefit extends Component {
     const Icon = icon;
     return (
       <div className={styles.benefit}>
-        <h1><Icon /></h1>
+        <div className={styles.icon}><Icon /></div>
         <h3>{highlight}</h3>
         <p className={styles.description}>{description}</p>
       </div>
