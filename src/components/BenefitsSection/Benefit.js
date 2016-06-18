@@ -9,7 +9,7 @@ class Benefit extends Component {
     return (
       <div className={styles.benefit}>
         <h1><Icon /></h1>
-        <p>{highlight}</p>
+        <h3>{highlight}</h3>
         <p className={styles.description}>{description}</p>
       </div>
     );
