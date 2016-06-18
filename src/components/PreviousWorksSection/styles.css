@@ -1,6 +1,7 @@
 .PreviousWorksSection {
     text-align: center;
     padding: 50px;
+    font-weight: 300;
 }
 
 .prevWorks {
@@ -11,6 +12,7 @@
 .prevWorks img {
     max-height: 150px;
     box-shadow: 3px 3px 5px #888888;
+    border-radius: 0.5em;
 }
 
 .title {

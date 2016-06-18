@@ -36,7 +36,7 @@ class BenefitsSection extends Component {
           title="STATE OF THE ART"
           description={
             'Webpack, Hot Module Replacement, '
-            + 'CSS Modules, etc. WE use the best-in-'
+            + 'CSS Modules, etc. We use the best-in-'
             + 'class technologies to give you the best'
             + 'development experience.'
           }
