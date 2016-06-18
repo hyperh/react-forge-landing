@@ -16,6 +16,12 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: KlinicSlab;
+  src: url('./assets/fonts/KlinicSlabBold.otf');
+  font-weight: 700;
+}
+
 html,
 body {
   font-family: Roboto;
