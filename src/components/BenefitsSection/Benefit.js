@@ -17,7 +17,7 @@ class Benefit extends Component {
 }
 
 Benefit.propTypes = {
-  icon: React.PropTypes.element.isRequired,
+  icon: React.PropTypes.func.isRequired,
   description: React.PropTypes.string.isRequired,
   title: React.PropTypes.string.isRequired,
 };
