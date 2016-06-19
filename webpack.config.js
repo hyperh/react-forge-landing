@@ -38,6 +38,12 @@ module.exports = {
           'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
           'postcss',
         ],
+        include: path.join(__dirname, 'src'),
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader',
+        exclude: path.join(__dirname, 'src'),
       },
       {
         test: /\.(png|jpg|svg|gif)/,
@@ -46,7 +52,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|otf)$/,
+        test: /\.(eot|ttf|woff|woff2|otf)$/,
         loader: 'file?name=public/fonts/[name].[ext]',
       },
     ],
