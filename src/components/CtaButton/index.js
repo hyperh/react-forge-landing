@@ -5,7 +5,7 @@ import styles from './styles.css';
 class CtaButton extends Component {
   render() {
     return (
-      <button className={`${styles.btn} ${styles.ctaButton}`}>
+      <button className={`${styles.btn}`}>
         Submit Your Design!
       </button>
     );
