@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import styles from '../styles.css';
 
-import Header from './Header/index';
-import Process from './Process/index';
-import Footer from './Footer/index';
+import Header from './Header/';
+import Process from './Process/';
+import Footer from './Footer/';
 import Cta from './Cta/';
 import PreviousWorksSection from './PreviousWorksSection/';
 import BenefitsSection from './BenefitsSection/';
