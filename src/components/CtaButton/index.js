@@ -26,7 +26,7 @@ class CtaButton extends Component {
       <a
         className={`typeform-share link ${styles.btn}`}
         href="https://adrianmcli.typeform.com/to/Kq866Q"
-        data-mode="2"
+        data-mode="1"
         target="_blank"
       >
         Submit Your Design!
