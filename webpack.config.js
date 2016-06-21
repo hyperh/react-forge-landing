@@ -1,10 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   devtool: 'eval',
-  entry: [
+  entry: isProd ? './src/index' : [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
     'react-hot-loader/patch',

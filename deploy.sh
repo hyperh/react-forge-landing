@@ -1,6 +1,6 @@
 #!/bin/bash
 
-webpack
+webpack -p
 
 cp index.html ./dist/index.html
 cp CNAME ./dist/CNAME
