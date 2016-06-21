@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b4198fb95e322786eb5b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "afe489885bacce72001f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -3217,7 +3217,7 @@
 /* 439 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"public/img/olis-min_01764393c2d2a9aab67f38b36abdaa6b.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/olis-min.png\n ** module id = 439\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/olis-min.png?");
+	eval("module.exports = __webpack_require__.p + \"public/img/olis-min_554b71660d50c2c051ef7f9f5f357f49.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/olis-min.png\n ** module id = 439\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/olis-min.png?");
 
 /***/ },
 /* 440 */
