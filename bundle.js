@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5bffa87d99a9aa6e385e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b4198fb95e322786eb5b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -3001,7 +3001,7 @@
 /* 403 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"/public/img/hero_81a648483d2fc86ed92380f0998884b4.jpg\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/hero.jpg\n ** module id = 403\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/hero.jpg?");
+	eval("module.exports = __webpack_require__.p + \"public/img/hero_81a648483d2fc86ed92380f0998884b4.jpg\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/hero.jpg\n ** module id = 403\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/hero.jpg?");
 
 /***/ },
 /* 404 */
@@ -3049,7 +3049,7 @@
 /* 411 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"/public/img/laptop_f2ab9096c1e79489d3b2219c2757f329.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/laptop.png\n ** module id = 411\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/laptop.png?");
+	eval("module.exports = __webpack_require__.p + \"public/img/laptop_f2ab9096c1e79489d3b2219c2757f329.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/laptop.png\n ** module id = 411\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/laptop.png?");
 
 /***/ },
 /* 412 */
@@ -3067,7 +3067,7 @@
 /* 414 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"/public/img/code_8f688caf677cfee1fb9e98ca4848c66b.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/code.png\n ** module id = 414\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/code.png?");
+	eval("module.exports = __webpack_require__.p + \"public/img/code_8f688caf677cfee1fb9e98ca4848c66b.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/code.png\n ** module id = 414\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/code.png?");
 
 /***/ },
 /* 415 */
@@ -3109,7 +3109,7 @@
 /* 421 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"/public/img/sayagata_5be3c3c0b8ae69aa88b3277d65952f97.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/sayagata.png\n ** module id = 421\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/sayagata.png?");
+	eval("module.exports = __webpack_require__.p + \"public/img/sayagata_5be3c3c0b8ae69aa88b3277d65952f97.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/sayagata.png\n ** module id = 421\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/sayagata.png?");
 
 /***/ },
 /* 422 */
@@ -3217,13 +3217,13 @@
 /* 439 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"/public/img/olis-min_01764393c2d2a9aab67f38b36abdaa6b.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/olis-min.png\n ** module id = 439\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/olis-min.png?");
+	eval("module.exports = __webpack_require__.p + \"public/img/olis-min_01764393c2d2a9aab67f38b36abdaa6b.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/olis-min.png\n ** module id = 439\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/olis-min.png?");
 
 /***/ },
 /* 440 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("module.exports = __webpack_require__.p + \"/public/img/olis-landing-min_a7c2acfe9807cb0b030763d7a6bcb6f9.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/olis-landing-min.png\n ** module id = 440\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/olis-landing-min.png?");
+	eval("module.exports = __webpack_require__.p + \"public/img/olis-landing-min_a7c2acfe9807cb0b030763d7a6bcb6f9.png\";\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/assets/olis-landing-min.png\n ** module id = 440\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/assets/olis-landing-min.png?");
 
 /***/ },
 /* 441 */
