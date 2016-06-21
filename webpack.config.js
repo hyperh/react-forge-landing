@@ -48,7 +48,7 @@ module.exports = {
       {
         test: /\.(png|jpg|svg|gif)/,
         loaders: [
-          'url?limit=10000&hash=sha512&digest=hex&name=[name]_[hash].[ext]',
+          'url?limit=10000&hash=sha512&digest=hex&name=public/img/[name]_[hash].[ext]',
         ],
       },
       {
