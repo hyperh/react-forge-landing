@@ -3,8 +3,25 @@ const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 const isProd = process.env.NODE_ENV === 'production';
 
+const devPlugins = [
+  new webpack.HotModuleReplacementPlugin(),
+];
+const prodPlugins = [
+  new webpack.optimize.DedupePlugin(),
+  new webpack.optimize.OccurenceOrderPlugin(),
+  new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify('production'),
+    },
+  }),
+  new webpack.optimize.UglifyJsPlugin({
+    screw_ie8: true,
+    compressor: { warnings: false },
+  }),
+];
+
 module.exports = {
-  devtool: 'eval',
+  devtool: isProd ? 'cheap-module-source-map' : 'eval',
   entry: isProd ? './src/index' : [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
@@ -16,9 +33,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '',
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  plugins: isProd ? prodPlugins : devPlugins,
   module: {
     preLoaders: [
       {
