@@ -4,7 +4,8 @@
   "description": "A landing page for React Forge",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "deploy": "./deploy.sh"
   },
   "repository": {
     "type": "git",
