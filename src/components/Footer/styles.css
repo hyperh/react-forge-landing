@@ -10,3 +10,7 @@
   font-family: "Roboto";
   font-weight: 300;
 }
+
+.container a {
+  color: white;
+}

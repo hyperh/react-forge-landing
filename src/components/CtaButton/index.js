@@ -18,8 +18,8 @@ class CtaButton extends Component {
       q = gt.call(d, 'script')[0];
       q.parentNode.insertBefore(js, q);
     }
-    /* eslint-enable */
   }
+  /* eslint-enable */
 
   render() {
     return (
