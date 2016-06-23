@@ -1,6 +1,9 @@
 #!/bin/bash
 
-webpack
+rm -rf ./dist
+mkdir dist
+
+NODE_ENV=production webpack
 
 cp index.html ./dist/index.html
 cp CNAME ./dist/CNAME

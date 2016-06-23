@@ -34,7 +34,7 @@ class PreviousWorksSection extends Component {
     return (
       <div className={styles.PreviousWorksSection}>
 
-        <h1>Our Previous Works</h1>
+        <h1>Our Previous Work</h1>
         <hr className={styles.prevWorksHr} />
 
         <div className={styles.prevWorks}>

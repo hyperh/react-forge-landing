@@ -13,6 +13,7 @@ export default class Process extends React.Component {
     return (
       <div className={styles.container}>
         <div className={styles.process}>
+
           <div className={styles.stepContainer}>
             <div className={styles.stepText}>
               <div className={styles.numberCircle}>1</div>
@@ -33,6 +34,7 @@ export default class Process extends React.Component {
             </div>
             <img src={code} alt="Code" className={styles.code} />
           </div>
+
         </div>
         <CtaButton />
       </div>
