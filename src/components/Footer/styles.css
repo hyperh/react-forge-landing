@@ -11,6 +11,7 @@
   font-weight: 300;
 }
 
-.container a {
+.container a,
+.container a:visited {
   color: white;
 }
