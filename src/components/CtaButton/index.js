@@ -23,14 +23,16 @@ class CtaButton extends Component {
 
   render() {
     return (
-      <a
-        className={`typeform-share link ${styles.btn}`}
-        href="https://adrianmcli.typeform.com/to/Kq866Q"
-        data-mode="1"
-        target="_blank"
-      >
-        Submit Your Design!
-      </a>
+      <div className={styles.wrapper}>
+        <p className={styles.warning}>
+          The form is currently disabled, please send an email to&nbsp;
+          <a href="mailto:li.adrianmc@gmail.com" target="_blank">Adrian</a><br />
+          if you are interested in React.js consulting.
+        </p>
+        <a className={styles.btn}>
+          Submit Your Design!
+        </a>
+      </div>
     );
   }
 }

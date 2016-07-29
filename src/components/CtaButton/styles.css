@@ -1,3 +1,12 @@
+.wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+.warning {
+  color: white;
+}
+
 .btn {
   display: inline-block;
   margin: auto;
@@ -23,4 +32,15 @@
 
 .btn:active {
   transform: scale(0.97);
+}
+
+/* disabled styles */
+
+.btn {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
 }
