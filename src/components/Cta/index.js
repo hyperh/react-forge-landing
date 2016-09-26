@@ -9,7 +9,7 @@ class Cta extends Component {
       <div className={styles.cta}>
         <p className={styles.description}>
           Get a page of mockups converted to <b>React</b>
-          <br /> components for just <b>$97!</b>
+          <br /> components for as low as <b>$97!</b>
         </p>
         <CtaButton />
       </div>
